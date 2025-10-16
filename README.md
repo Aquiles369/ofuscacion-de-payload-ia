@@ -13,7 +13,7 @@
 
 <picture> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  </picture>
 
- ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGtoZmpoMWgyY284bWdjaWVzdWt0bzhtd2x4d2d6dGN6Z3RmNXI2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MzEvpKwyuz1LtMKmHp/giphy.gif" width = 75px>  </picture> Promt de ia + Ofuscacion de payload 
+ ### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjJvZ25oczN6NDBzc2ZsdmhyODk1a2Y5MTBwcWdsaHJ6MG1wb29reiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hRT5cqXBhrrtVH2uVQ/giphy.gif" width = 75px>  </picture> Promt de ia + Ofuscacion de payload 
 
 <br>
 
@@ -54,11 +54,6 @@
 <br><br>
 
 - Una herramienta que toma un payload XSS y lo muta en variantes ofuscadas funcionales, aplicando técnicas modernas de evasión, homoglifos, combinaciones Unicode y validación estricta. Ideal para bug bounty, investigación avanzada y bypass de filtros.<br><br>
-
-
- <img  height="420rem" alt="GIF" src="https://github.com/Aquiles369/iconos/blob/main/prompt_interesante_cualquier_IA.jpg"/>
-
- <br>
  
 #1 — Promt de ia + Ofuscacion de payload.
 

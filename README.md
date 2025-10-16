@@ -21,7 +21,7 @@
 <br><br> 
 
 <p align="center">
- <img  height="420rem" alt="GIF" src="https://github.com/Aquiles369/iconos/blob/main/demo_promt_ia.gif"/>
+ <img  height="420rem" alt="GIF" src="https://github.com/Aquiles369/iconos/blob/main/promt_ofuscacion.gif"/>
 </p>
 
 <br>
@@ -157,6 +157,23 @@ Flags opcionales: #*, #**, #a (puede combinarse).
 
 El seed fija la semilla del generador pseudoaleatorio: te da reproducibilidad. Si volvés a correr con el mismo seed + mismos inputs/flags, obtenés las mismas variantes (útil para comparar, depurar o versionar resultados).
 ```
+
+
+## — Ejemplo de comando
+
+ ```yaml
+payloads:
+"><img src=x onerror=alert(1)>
+<script>alert('XSS')</script>
+<svg onload=confirm(1337)>
+
+variants_per_payload: 10
+seed: 1337
+x17_blocks: #1,#2,#3,#6,#8,#10,#11
+modo_validación: estricto
+flags: #**, #a
+```
+
 
 <br><br>
 

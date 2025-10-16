@@ -28,29 +28,29 @@
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWMwNWhpbmE1aGsyb3ZxcWZ5dDg5NDNkenJ5cWcyeWM0OXNwc280NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/RLUiICsxex9Up8gW2b/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
+### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmZ4OTY5cXd5MWlqaHpzamh3OHNmNG52Z2RmdjZwODF6ZDNtNWpzdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HiIBVUzpjYbEs985mp/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
 **• Encontrar XSS hoy no es solo cuestión de inyectar <script>alert(1)</script>. Los WAF modernos, filtros de contenido y validadores detectan y bloquean payloads tradicionales. Esta herramienta soluciona ese obstáculo al generar múltiples variantes funcionales, ofuscadas y evasivas, listas para probar contra filtros y parsers avanzados.** 
 
 <br>
 
-### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGEwanJkb3AycGg2d2puZ2sydHVwdDR5bWN1ZXYxcngwYmJ1bjNpaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IXzTorXGWKKOjdLQMf/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
-🧬 Ofuscación profunda por bloques Unicode (ASCII, Greek, Cyrillic, Math, etc.) sin romper ejecución.<br>
+### <picture> <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmd3em1xdnZucjYxazltNDRwMDVoY3JjOWFiNnhnZjB1YXoxaHowZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TjtJqIbbwkfkoEDHE0/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
 
-🎭 Variantes únicas por payload con entropía controlada y reproducción garantizada gracias al seed.<br>
+• Ofuscación profunda por bloques Unicode (ASCII, Greek, Cyrillic, Math, etc.) sin romper ejecución.<br>
 
-🛡️ Bypass de WAF y parsers gracias a técnicas de sustitución, homoglifos y manipulación por carácter (#**).<br>
+• Variantes únicas por payload con entropía controlada y reproducción garantizada gracias al seed.<br>
 
-🧪 Entorno de laboratorio realista para probar payloads en aplicaciones vulnerables sin riesgos.<br>
+• Bypass de WAF y parsers gracias a técnicas de sustitución, homoglifos y manipulación por carácter (#**).<br>
 
-🧰 Automatización total: ingresás un payload y obtenés cientos o miles de variantes sin esfuerzo.<br><br>
+• Entorno de laboratorio realista para probar payloads en aplicaciones vulnerables sin riesgos.<br>
 
-<br>
+• Automatización total: ingresás un payload y obtenés cientos o miles de variantes sin esfuerzo.<br><br>
+
 
 
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDJoemh1aXdnaW8xYzV5aThmcnlkdW41dXFtdnkzajBhcHRzaHN5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/nQQAlS12r0M0EIq2uo/giphy.gif" width = 80px>  </picture> Resumen rápido
+### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajJscjlkYnNnOGVlbmc2MWpiNDVkdmszYjczeGhhcmE5NzEzZmlhaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/c6SMDPsDhObMToLoJ4/giphy.gif" width = 80px>  </picture> Resumen rápido
 <br><br>
 
 - Una herramienta que toma un payload XSS y lo muta en variantes ofuscadas funcionales, aplicando técnicas modernas de evasión, homoglifos, combinaciones Unicode y validación estricta. Ideal para bug bounty, investigación avanzada y bypass de filtros.<br><br>
@@ -163,9 +163,9 @@ Flags opcionales: #*, #**, #a (puede combinarse).
 El seed fija la semilla del generador pseudoaleatorio: te da reproducibilidad. Si volvés a correr con el mismo seed + mismos inputs/flags, obtenés las mismas variantes (útil para comparar, depurar o versionar resultados).
 ```
 
-<br>
+<br><br>
 
-#3 — Explicación del promt
+## 3 — Explicación del promt
 
 INPUTS DEL USUARIO
 

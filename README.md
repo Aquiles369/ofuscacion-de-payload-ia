@@ -13,11 +13,11 @@
 
 <picture> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  </picture>
 
- ### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxwNHplODg5cHpqanV1aTVpamR3cGFyeW5oaHN5MTM2ODI2dnEyciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MLovyGXg4ENkV3LUuT/giphy.gif" width = 75px>  </picture> Promt de ia + Ofuscacion de payload 
+ ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGtoZmpoMWgyY284bWdjaWVzdWt0bzhtd2x4d2d6dGN6Z3RmNXI2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MzEvpKwyuz1LtMKmHp/giphy.gif" width = 75px>  </picture> Promt de ia + Ofuscacion de payload 
 
 <br>
 
- **Colección de promt interesante para tu IA, guardar los promt en la memoria interna.** 
+ **Generador avanzado de variantes ofuscadas de payloads XSS diseñado para uso en laboratorios de seguridad web, que transforma strings e identificadores sin romper la ejecución ni la sintaxis del payload original.** 
 <br><br> 
 
 <p align="center">
@@ -29,21 +29,20 @@
 <br>
 
 ### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWMwNWhpbmE1aGsyb3ZxcWZ5dDg5NDNkenJ5cWcyeWM0OXNwc280NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/RLUiICsxex9Up8gW2b/giphy.gif" width = 75px>  </picture> Problema que resuelve<br><br>
-**• Esta estructura (“La Anatomía de un Prompt”) resuelve el mayor problema al trabajar con IAs: prompts vagos, ambiguos o poco útiles que dan respuestas genéricas o incorrectas. Al dividir el prompt en partes claras (meta, formato, advertencias, contexto), evita malentendidos y garantiza precisión, coherencia y resultados relevantes.** 
+**• Encontrar XSS hoy no es solo cuestión de inyectar <script>alert(1)</script>. Los WAF modernos, filtros de contenido y validadores detectan y bloquean payloads tradicionales. Esta herramienta soluciona ese obstáculo al generar múltiples variantes funcionales, ofuscadas y evasivas, listas para probar contra filtros y parsers avanzados.** 
 
 <br>
 
 ### <picture> <img src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGEwanJkb3AycGg2d2puZ2sydHVwdDR5bWN1ZXYxcngwYmJ1bjNpaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/IXzTorXGWKKOjdLQMf/giphy.gif" width = 75px>  </picture> Qué aporta y cómo beneficia <br><br>
-Esta estructura (“La Anatomía de un Prompt”) resuelve el mayor problema al trabajar con IAs: prompts vagos, ambiguos o poco útiles que dan respuestas genéricas o incorrectas. Al dividir el prompt en partes claras (meta, formato, advertencias, contexto), evita malentendidos y garantiza precisión, coherencia y resultados relevantes.
-Claridad total: la IA entiende con exactitud qué debe hacer, cómo debe responder y qué evitar.<br><br>
+🧬 Ofuscación profunda por bloques Unicode (ASCII, Greek, Cyrillic, Math, etc.) sin romper ejecución.<br>
 
-• Respuestas verificables: obliga a la IA a entregar datos concretos, reales y comprobables, alineándose con tu modo “auditor estricto + citas”.<br><br>
+🎭 Variantes únicas por payload con entropía controlada y reproducción garantizada gracias al seed.<br>
 
-• Razonamiento transparente: al incluir advertencias y contexto, se minimiza la especulación y se mejora la trazabilidad del razonamiento.<br><br>
+🛡️ Bypass de WAF y parsers gracias a técnicas de sustitución, homoglifos y manipulación por carácter (#**).<br>
 
-• Control del formato: puedes pedir resultados en la estructura exacta que necesitás (listas, tablas, pasos, etc.), sin improvisación.<br><br>
+🧪 Entorno de laboratorio realista para probar payloads en aplicaciones vulnerables sin riesgos.<br>
 
-• Mayor calidad en menos tiempo: al reducir la ambigüedad inicial, las respuestas correctas llegan más rápido y requieren menos correcciones.<br><br>
+🧰 Automatización total: ingresás un payload y obtenés cientos o miles de variantes sin esfuerzo.<br><br>
 
 <br>
 
@@ -54,7 +53,7 @@ Claridad total: la IA entiende con exactitud qué debe hacer, cómo debe respond
 ### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDJoemh1aXdnaW8xYzV5aThmcnlkdW41dXFtdnkzajBhcHRzaHN5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/nQQAlS12r0M0EIq2uo/giphy.gif" width = 80px>  </picture> Resumen rápido
 <br><br>
 
-- La Anatomía de un Prompt — Estructura clara para crear prompts de precisión quirúrgica. Divide la solicitud en meta, formato, advertencias y contexto adicional para obtener respuestas verificables, sin especulación y con razonamiento transparente. Ideal para modo auditor estricto, investigación técnica y uso profesional de IA.<br><br>
+- Una herramienta que toma un payload XSS y lo muta en variantes ofuscadas funcionales, aplicando técnicas modernas de evasión, homoglifos, combinaciones Unicode y validación estricta. Ideal para bug bounty, investigación avanzada y bypass de filtros.<br><br>
 
 
  <img  height="420rem" alt="GIF" src="https://github.com/Aquiles369/iconos/blob/main/prompt_interesante_cualquier_IA.jpg"/>
@@ -290,7 +289,7 @@ Flags opcionales: #*, #**, #a (puede combinarse).
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>
 <br>
 
-### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3YwbG9zbmU1amprdTJsbmxzYnpobzd5eGtnazB6b2FmdnllaTRhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/h8UlsEpqiCISTKUzvz/giphy.gif" width = 80px>  </picture> “Domina el arte del prompt perfecto: precisión quirúrgica, cero ambigüedad y resultados 100 % verificables.”
+### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3YwbG9zbmU1amprdTJsbmxzYnpobzd5eGtnazB6b2FmdnllaTRhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/h8UlsEpqiCISTKUzvz/giphy.gif" width = 80px>  </picture> “Camuflaje quirúrgico para tus XSS: invisible al WAF, letal en ejecución.”
 
 
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>

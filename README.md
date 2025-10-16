@@ -1,6 +1,6 @@
 
 
-<h1 align="center"><img height="40" src="https://github.com/Aquiles369/iconos/blob/main/img/lobo1.gif"><img height="40" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWx4YTl1dW9scXlqZDk2cTdyY2VvcXQwMG40OGoxY25rZzV0MDZhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/peSyJWjNTRfzaWh49M/giphy.gif">"Ofuscacion de payload ia"<img height="40" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWx4YTl1dW9scXlqZDk2cTdyY2VvcXQwMG40OGoxY25rZzV0MDZhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/peSyJWjNTRfzaWh49M/giphy.gif"><img height="40" src="https://github.com/Aquiles369/iconos/blob/main/img/lobo1.gif"></h1>	
+<h1 align="center"><img height="40" src="https://github.com/Aquiles369/iconos/blob/main/img/lobo1.gif"><img height="40" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWx4YTl1dW9scXlqZDk2cTdyY2VvcXQwMG40OGoxY25rZzV0MDZhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/peSyJWjNTRfzaWh49M/giphy.gif">"Ofuscacion de payload + ia"<img height="40" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWx4YTl1dW9scXlqZDk2cTdyY2VvcXQwMG40OGoxY25rZzV0MDZhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/peSyJWjNTRfzaWh49M/giphy.gif"><img height="40" src="https://github.com/Aquiles369/iconos/blob/main/img/lobo1.gif"></h1>	
 
 
 <br>
@@ -13,7 +13,7 @@
 
 <picture> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">  </picture>
 
- ### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxwNHplODg5cHpqanV1aTVpamR3cGFyeW5oaHN5MTM2ODI2dnEyciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MLovyGXg4ENkV3LUuT/giphy.gif" width = 75px>  </picture> Promt para ia
+ ### <picture> <img src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxwNHplODg5cHpqanV1aTVpamR3cGFyeW5oaHN5MTM2ODI2dnEyciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MLovyGXg4ENkV3LUuT/giphy.gif" width = 75px>  </picture> Promt de ia + Ofuscacion de payload 
 
 <br>
 
@@ -61,26 +61,230 @@ Claridad total: la IA entiende con exactitud qué debe hacer, cómo debe respond
 
  <br>
  
-#1 — Prompt de “priorizar precisión + verificación + transparencia”
+#1 — Promt de ia + Ofuscacion de payload.
 
  ```yaml
-Usuario solicita que siempre se priorice la precisión, la verificación con fuentes fidedignas y la transparencia en las respuestas. Quiere que se citen claramente las fuentes, que se indique explícitamente cuando algo no puede confirmarse, y que se evite cualquier especulación, invención o ambigüedad. También pide que se muestre el razonamiento paso a paso cuando la exactitud pueda estar en duda, y que la información se presente de manera clara y verificable.
+Prompt — Ofuscación XSS (LAB) · SALIDA: solo lista
+
+[PROPÓSITO]
+Generar variantes OFUSCADAS de payloads XSS para LABORATORIO, manteniendo ejecución funcional y respetando reglas duras de sintaxis. Solo transformar contenido permitido (strings e identificadores), nunca los tokens críticos de HTML/JS.
+
+Nota: Toda validación/metadata se registra internamente; no se imprime.
+
+[INPUTS DEL USUARIO]
+
+payloads (elige UNA):
+A) Un payload único (texto).
+B) Lista de N payloads, uno por línea.
+
+seed: entero para reproducibilidad (opcional).
+
+variants_per_payload: cantidad de variantes por payload (ej: 5, 10, 20).
+
+x17_blocks: lista de bloques a usar (IDs; por defecto: #1, #2, #3, #6, #8, #10, #11).
+
+modo_validación: "estricto" | "relajado" (por defecto: estricto).
+
+flags opcionales: #*, #**, #a (ver abajo).
+
+[x17_ofuscaciones_idiomas — BLOQUES DISPONIBLES]
+#1 ASCII | #2 Latin-1 | #3 Latin Ext-A | #4 Latin Ext-B | #5 Latin Ext Add | #6 Greek (homoglifos subset) | #7 Greek Ext | #8 Cyrillic (homoglifos subset) | #9 Cyrillic Suppl | #10 Fullwidth LATIN | #11 Math Alnum LATIN | #12 Math Alnum GREEK | #13 Phonetic Ext | #14 Phonetic Ext Suppl | #15 Combining Marks | #16 Latin Ext C/D/E | #17 Modifier Letters | #18 Greek&Coptic confusables | #19 Cyrillic Ext A/B | #20 Letterlike Symbols | #21 Super/Subscripts | #22 Combining Marks Ext | #23 Enclosed Alphanumerics | #24 (dup de #5, no combinar) | #25 Spacing Modifier Letters | #26 Greek&Coptic extra | #27 Cyrillic Ext A/B | #28 Mathematical Operators (subset)
+
+[REGLAS DURAS — SIEMPRE CUMPLIR]
+
+Preservar tokens ASCII de sintaxis: < > = + ( ) { } [ ] . , ; : ' " / ? ! & # % * \ ~ ^ | `
+
+No cambiar nombres de etiquetas ni eventos (script, img, svg, onerror, onload, onclick, etc.).
+
+Solo ofuscar:
+
+Dentro de strings '...' o "...".
+
+Nombres/props vía bracket notation: obj['prop'], win['al'+'ert'].
+
+IDs/clases/dataset si no rompen semántica.
+
+Paréntesis/comillas/corchetes: intactos.
+
+Combining marks (#15/#22) sin romper delimitadores ni crear operadores.
+
+Evitar puntos de código sin soporte real.
+
+No BIDI/invisibles disruptivos en tokens (ej. \u202E, \u200B).
+
+Mantener anclas de ejecución (ej. onerror=, javascript:, alert()).
+
+Si un bloque rompe ejecución → descartar y regenerar (hasta 3 intentos).
+
+Evitar duplicados equivalentes (#5 vs #24).
+
+[COMANDOS EXTRA]
+
+#* → Reusar la última ofuscación empleada.
+
+#** → Aplicar ofuscación carácter por carácter (excepto tokens críticos; mantener estructura JS/HTML).
+
+#a → Combinar todos los parámetros elegidos y añadir entropía a cada variante.
+
+[VALIDACIÓN AUTOMÁTICA (modo_validación="estricto")]
+Checks internos por variante (A–E):
+A) Tokens críticos preservados.
+B) Balanceo de paréntesis/comillas/corchetes.
+C) La primitiva de ejecución sigue presente (alert/confirm/onerror, etc.).
+D) Sin invisibles/BIDI en tokens.
+E) Bloques x17 válidos.
+→ Si falla: descartar y regenerar (máx. 3 reintentos/variante).
+
+Todo este detalle se registra internamente; no se imprime.
+
+[FORMATO DE SALIDA — IMPRESIÓN MÍNIMA]
+Solo la lista de payloads resultantes, uno por línea.
+Sin títulos, sin descripciones, sin hashes, sin “blocks:…”.
+[AHORA, SOLICITAR INSUMOS]
+
+¿Un payload o una lista (uno por línea)?
+
+variants_per_payload (número).
+
+seed (opcional).
+
+x17_blocks (IDs, coma separada). Sugerencia: #1,#2,#3,#6,#8,#10,#11.
+
+modo_validación: estricto | relajado.
+
+Flags opcionales: #*, #**, #a (puede combinarse).
 ```
 <br>
 
-#2 — “Preferencias guardadas (modo auditor estricto + citas)”
+#2 — ¿Para qué sirve el seed?
 
  ```yaml
-Preferencias guardadas (modo "auditor estricto + citas") para usuario: - Decir siempre la verdad; nada de especulación ni adivinanzas. - Basar afirmaciones en fuentes verificables, actuales y creíbles; priorizar precisión sobre velocidad. - Citar claramente la fuente de cada afirmación factual. - Declarar explícitamente “No puedo confirmar esto” si algo no puede verificarse. - Mantener objetividad y evitar sesgos; opiniones solo si se piden y rotulan como tales. - Presentar solo interpretaciones respaldadas por fuentes reputadas. - Explicar el razonamiento de forma verificable cuando la exactitud pueda ponerse en duda (pasos, cálculos y procedimientos transparentes sin revelar deliberaciones privadas). - Mostrar cómo se obtuvo cualquier cifra numérica. - Presentar la información de forma clara para que el usuario pueda verificarla por sí mismo. - Evitar: fabricar datos/citas, usar fuentes desactualizadas o poco fiables sin advertirlo, omitir detalles de la fuente, presentar rumores como hechos, usar “citas” generadas por IA sin enlace real, responder sin declarar incertidumbre cuando exista, hacer afirmaciones contundentes sin pruebas, usar relleno para ocultar falta de info, omitir contexto relevante o priorizar sonar bien por encima de ser correcto.
+¿Para qué sirve el seed?
+
+El seed fija la semilla del generador pseudoaleatorio: te da reproducibilidad. Si volvés a correr con el mismo seed + mismos inputs/flags, obtenés las mismas variantes (útil para comparar, depurar o versionar resultados).
 ```
 
 <br>
 
-#3 — “Promt para bug bounty”
+#3 — Explicación del promt
+
+INPUTS DEL USUARIO
 
  ```yaml
-Usa el humor ágil e inteligente cuando sea apropiado. tambien que sea un experto en bug bounty web etc buscando y razonando en buscar y encontrar explotar bugs web de sitios, creatividad aprender como lo haria un bug bounty hunter elite.Ademas siempre tiene que recordar que todos los paylodad que me genenere etc son para mi laboratorio, tiene que ser valida la informacion no tiene que alucinar ni mentir de mas. Ve directo al grano.
+payloads (elige UNA):
+A) Un payload único (texto).
+B) Lista de N payloads, uno por línea.
+
+seed: entero para reproducibilidad (opcional).
+
+variants_per_payload: cantidad de variantes por payload (ej: 5, 10, 20).
+
+x17_blocks: lista de bloques a usar (IDs; por defecto: #1, #2, #3, #6, #8, #10, #11).
+
+modo_validación: "estricto" | "relajado" (por defecto: estricto).
+
+flags opcionales: #*, #**, #a (ver abajo).
 ```
+
+<br>
+
+#4 — Bloques disponibles
+
+ ```yaml
+#1 ASCII | #2 Latin-1 | #3 Latin Ext-A | #4 Latin Ext-B | #5 Latin Ext Add | #6 Greek (homoglifos subset) | #7 Greek Ext | #8 Cyrillic (homoglifos subset) | #9 Cyrillic Suppl | #10 Fullwidth LATIN | #11 Math Alnum LATIN | #12 Math Alnum GREEK | #13 Phonetic Ext | #14 Phonetic Ext Suppl | #15 Combining Marks | #16 Latin Ext C/D/E | #17 Modifier Letters | #18 Greek&Coptic confusables | #19 Cyrillic Ext A/B | #20 Letterlike Symbols | #21 Super/Subscripts | #22 Combining Marks Ext | #23 Enclosed Alphanumerics | #24 (dup de #5, no combinar) | #25 Spacing Modifier Letters | #26 Greek&Coptic extra | #27 Cyrillic Ext A/B | #28 Mathematical Operators (subset)
+```
+
+<br>
+
+#5 — Reglas duras — Siempre debe cumplir 
+
+ ```yaml
+Preservar tokens ASCII de sintaxis: < > = + ( ) { } [ ] . , ; : ' " / ? ! & # % * \ ~ ^ | `
+
+No cambiar nombres de etiquetas ni eventos (script, img, svg, onerror, onload, onclick, etc.).
+
+Solo ofuscar:
+
+Dentro de strings '...' o "...".
+
+Nombres/props vía bracket notation: obj['prop'], win['al'+'ert'].
+
+IDs/clases/dataset si no rompen semántica.
+
+Paréntesis/comillas/corchetes: intactos.
+
+Combining marks (#15/#22) sin romper delimitadores ni crear operadores.
+
+Evitar puntos de código sin soporte real.
+
+No BIDI/invisibles disruptivos en tokens (ej. \u202E, \u200B).
+
+Mantener anclas de ejecución (ej. onerror=, javascript:, alert()).
+
+Si un bloque rompe ejecución → descartar y regenerar (hasta 3 intentos).
+
+Evitar duplicados equivalentes (#5 vs #24).
+```
+
+
+<br>
+
+#6 — COMANDOS EXTRA
+
+ ```yaml
+#* → Reusar la última ofuscación empleada.
+
+#** → Aplicar ofuscación carácter por carácter (excepto tokens críticos; mantener estructura JS/HTML).
+
+#a → Combinar todos los parámetros elegidos y añadir entropía a cada variante.
+```
+
+
+<br>
+
+#6 — Validación automatica (modo_validación="estricto")
+
+ ```yaml
+Checks internos por variante (A–E):
+A) Tokens críticos preservados.
+B) Balanceo de paréntesis/comillas/corchetes.
+C) La primitiva de ejecución sigue presente (alert/confirm/onerror, etc.).
+D) Sin invisibles/BIDI en tokens.
+E) Bloques x17 válidos.
+→ Si falla: descartar y regenerar (máx. 3 reintentos/variante).
+
+Todo este detalle se registra internamente; no se imprime.
+```
+
+<br>
+
+#7 — Formato de salida — impresión mínima.
+
+ ```yaml
+Solo la lista de payloads resultantes, uno por línea.
+Sin títulos, sin descripciones, sin hashes, sin “blocks:…”.
+```
+
+
+<br>
+
+#8 — Solicitar insumos
+
+ ```yaml
+¿Un payload o una lista (uno por línea)?
+
+variants_per_payload (número).
+
+seed (opcional).
+
+x17_blocks (IDs, coma separada). Sugerencia: #1,#2,#3,#6,#8,#10,#11.
+
+modo_validación: estricto | relajado.
+
+Flags opcionales: #*, #**, #a (puede combinarse).
+```
+
+
 
 
 <picture> <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width ="1050" > </picture>

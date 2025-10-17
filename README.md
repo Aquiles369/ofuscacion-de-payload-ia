@@ -253,7 +253,7 @@ Evitar duplicados equivalentes (#5 vs #24).
 
 <br>
 
-#6 — Validación automatica (modo_validación="estricto")
+#7 — Validación automatica (modo_validación="estricto")
 
  ```yaml
 Checks internos por variante (A–E):
@@ -269,7 +269,7 @@ Todo este detalle se registra internamente; no se imprime.
 
 <br>
 
-#7 — Formato de salida — impresión mínima.
+#8 — Formato de salida — impresión mínima.
 
  ```yaml
 Solo la lista de payloads resultantes, uno por línea.
@@ -279,7 +279,7 @@ Sin títulos, sin descripciones, sin hashes, sin “blocks:…”.
 
 <br>
 
-#8 — Solicitar insumos
+#9 — Solicitar insumos
 
  ```yaml
 ¿Un payload o una lista (uno por línea)?
